@@ -24,6 +24,7 @@ export default function RootLayout({
             <Link href={'/'}>Home</Link>
             <Link href={'/users'}>Users</Link>
             <Link href={'/error-test'}>Error page</Link>
+            <Link href={'/counter/1'}>To start counding from 1</Link>
           </nav>
         </header>
         {children}
