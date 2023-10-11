@@ -26,6 +26,7 @@ export default function RootLayout({
             <Link href={'/error-test'}>Error page</Link>
             <Link href={'/counter/1'}>To start counding from 1</Link>
             <Link href={'/client-component-with-server-component'}>To check out client component with a server component inside it</Link>
+            <Link href={'/cool-lazy'}>Supercool lazy load html streaming</Link>
           </nav>
         </header>
         {children}
